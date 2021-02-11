@@ -1,4 +1,4 @@
-//finding a prime number
+//finding a prime number via do/while loop
 
 public static boolean primeTest(int n) {
 		int i = 2;
