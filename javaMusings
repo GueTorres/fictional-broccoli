@@ -1,0 +1,13 @@
+//finding a prime number
+
+public static boolean primeTest(int n) {
+		int i = 2;
+		
+		do {
+			if( n == 1 )  return false;
+			if( n % i == 0 && n/i != 1 ) return false;
+			i++;
+		}while(n > i);
+		
+		return true;
+	}
